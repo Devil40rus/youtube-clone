@@ -1,0 +1,44 @@
+.video__preview {
+    display: grid;
+    grid: 130px auto / 210px;
+    margin: 0px 5px 25px 0;
+}
+
+.video__image {
+    position: relative;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.video__timestamp {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+    border-radius: 2px;
+    font-weight: 500;
+    margin: 4px;
+    padding: 2px 2px;
+    line-height: 10px;
+    background: #333;
+    color: #fff;
+}
+
+.video__info {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.video__basic-info {
+    padding-top: 5px;
+}
+
+.video__channel {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.video__view-time {
+    margin-bottom: 10px;
+}

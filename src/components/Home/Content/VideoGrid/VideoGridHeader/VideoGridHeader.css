@@ -1,0 +1,8 @@
+.video-grid__header {
+    padding: 12px 0px 22px 0;
+}
+
+.video-grid__title {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
